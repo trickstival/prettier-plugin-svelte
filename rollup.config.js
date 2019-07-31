@@ -8,7 +8,7 @@ export default {
     external: ['prettier', 'svelte'],
     output: {
         file: 'plugin.js',
-        format: 'cjs',
+        format: 'esm',
         sourcemap: true,
     },
 };
